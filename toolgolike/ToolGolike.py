@@ -99,6 +99,8 @@ print("\033[1;37m║════════════════════
 print("\033[1;32m║ ➣ Chức năng [5] \033[1;31mTool Golike Linkedin                       \033[1;32m║")
 print("\033[1;37m║════════════════════════════════════════════════════════════║")
 print("\033[1;32m║ ➣ Chức năng [6] \033[1;31mTool Golike Youtube                        \033[1;32m║")
+print("\033[1;37m║════════════════════════════════════════════════════════════║")
+print("\033[1;32m║ ➣ Nhập [7] \033[1;31mĐể Trở Lại Trang Tool Gộp                       \033[1;32m║")
 print("\033[1;37m╚════════════════════════════════════════════════════════════╝")
 chon = int(input('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;37m: \033[1;33m'))
 if chon == 1 :
@@ -113,6 +115,8 @@ if chon == 5 :
 	exec(requests.get('https://raw.githubusercontent.com/thanhquytool/thanhquytool/main/toolgolike/Golike/Linkedin.py').text)
 if chon == 6 :
 	exec(requests.get('https://raw.githubusercontent.com/thanhquytool/thanhquytool/main/toolgolike/Golike/Youtube.py').text)
+if chon == 7 :
+	exec(requests.get('https://raw.githubusercontent.com/thanhquytool/thanhquytool/main/ToolGop.py').text)
 else :
 	print (" Sai Lựa Chọn ")
 	exit()
