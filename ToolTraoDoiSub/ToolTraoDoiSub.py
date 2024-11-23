@@ -89,10 +89,14 @@ print(f"{trang} ➩ Ngày{trang} : {do}{ngay_hom_nay}{vang} |{luc} Tháng{trang}
 print(f'{trang} ➩ IP Hiện Tại Của Bạn : {vang}{ip}')
 print("\033[1;37m╔════════════════════════════════════════════════════════════╗")
 print("\033[1;32m║ ➣ Chức năng [1] \033[1;31mTool TraoDoiSub.com TikTok                 \033[1;32m║")
+print("\033[1;37m║════════════════════════════════════════════════════════════║")
+print("\033[1;32m║ ➣ Nhập [2] \033[1;31mĐể Trở Lại Trang Tool Gộp                        \033[1;32m║")
 print("\033[1;37m╚════════════════════════════════════════════════════════════╝")
 chon = int(input('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;37m: \033[1;33m'))
 if chon == 1 :
 	exec(requests.get('https://raw.githubusercontent.com/thanhquytool/thanhquytool/main/ToolTraoDoiSub/TraoDoiSub/TikTok.py').text)
+if chon == 2 :
+	exec(requests.get('https://raw.githubusercontent.com/thanhquytool/thanhquytool/main/ToolGop.py').text)
 else :
 	print (" Sai Lựa Chọn ")
 	exit()
