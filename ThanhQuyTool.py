@@ -151,7 +151,7 @@ def input_key():
         inp = input("\033[1;32mNhập Key: \033[1;31m")
         if inp == key:
             print("Key Đúng Rồi !")
-            open("thanhquytool.txt", "w").write(inp)
+            open("thanhquytool_key.txt", "w").write(inp)
             break
         else:
             print("Key Sai. Vui Lòng Nhập Lại !")
