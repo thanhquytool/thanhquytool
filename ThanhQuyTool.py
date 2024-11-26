@@ -157,10 +157,10 @@ def input_key():
             print("Key Sai. Vui Lòng Nhập Lại !")
             continue 
 
-if not os.path.exists("thanhquytool.txt"):
+if not os.path.exists("thanhquytool_key.txt"):
     input_key()
 else:
-    inp = open("thanhquytool.txt", "r").read()
+    inp = open("thanhquytool_key.txt", "r").read()
     if inp == key:
         pass
     else:
