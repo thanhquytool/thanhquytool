@@ -588,7 +588,7 @@ if checkurl1['status']== 200 :
         print(Fore.GREEN+'\033[1;97m[\033[1;91m𝓕𝓠\033[1;97m] \033[1;32mTổng Tiền : '+Fore.YELLOW+str(coin))
         print(Fore.RED+'\033[97m════════════════════════════════════════════════')
         print("\033[1;32mNhập \033[1;37m[\033[1;33m1\033[1;37m] \033[1;32mĐể Vào Tool Instagram")
-        print(Fore.RED+'Nhập \033[1;37m[2\033[1;37m] \033[1;31mĐể Xóa Authorization Hiện Tại')
+        print(Fore.RED+'Nhập \033[1;37m[\033[1;33m2\033[1;37m] \033[1;31mĐể Xóa Authorization Hiện Tại')
         choose = int(input(Fore.WHITE+'\033[1;36mNhập Lựa Chọn: \033[1;37m'))
         if choose == 1:
             os.system('cls' if os.name== 'nt' else 'clear')
